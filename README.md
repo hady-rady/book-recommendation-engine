@@ -25,3 +25,8 @@ Open `book_recommendation_engine.ipynb` in Google Colab or Jupyter Notebook and 
 
 ## Dataset
 Book-Crossing dataset provided by freeCodeCamp for educational purposes.
+
+## Recommendation Results
+
+![Book Recommendation Results](recommendation_results.png)
+

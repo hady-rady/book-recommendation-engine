@@ -1,34 +1,27 @@
 # Book Recommendation Engine
 
 ## Project Overview
-A machine learning application that recommends books based on user ratings and similarities between readers' preferences.
+A machine learning project that recommends similar books based on user ratings using the K-Nearest Neighbors (KNN) algorithm.
 
 ## Technologies Used
 - Python
 - Pandas and NumPy
 - Scikit-learn
-- K-Nearest Neighbors (KNN)
-- Cosine Similarity
-- Data Preprocessing
+- SciPy
+- Jupyter Notebook
 
-## How It Works
-1. Load and preprocess book and rating datasets.
-2. Filter users and books based on rating frequency.
-3. Build a user-book rating matrix.
+## Project Workflow
+1. Load and explore the Book-Crossing dataset.
+2. Filter users and books based on rating counts.
+3. Create a user-book rating matrix.
 4. Train a KNN model using cosine distance.
-5. Recommend similar books based on a selected title.
+5. Recommend similar books based on user preferences.
 
-## Key Features
-- Book recommendations based on rating patterns.
-- Similarity-based recommendations using KNN.
-- Data filtering and preprocessing.
-- Model testing and evaluation.
-
-## Project Files
-- `book_recommendation_engine.ipynb` — Notebook containing the implementation and testing.
+## Results
+Successfully completed the freeCodeCamp Book Recommendation Engine challenge.
 
 ## How to Run
-Open the notebook in Google Colab, run the cells in order, and use the `get_recommends()` function to generate book recommendations.
+Open `book_recommendation_engine.ipynb` in Google Colab or Jupyter Notebook and run the cells in order.
 
 ## Dataset
-The project uses book information and user ratings to generate recommendations.
+Book-Crossing dataset provided by freeCodeCamp for educational purposes.
